@@ -3,12 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@react-native-async-storage/async-storage": "*",
+    "@react-navigation/native-stack": "*",
+    "@react-navigation/native": "*",
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
-    "react": "*",
-    "react-native": "*",
+    "metro-config": "*",
     "react-native-config": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
     "react-native-svg": "*",
-    "@react-native-async-storage/async-storage": "*"
+    "react-native": "*",
+    "react": "*",
+    "vite": "*",
+    "vite-tsconfig-paths": "*",
+    "vite-plugin-dts": "*"
   }
 }
