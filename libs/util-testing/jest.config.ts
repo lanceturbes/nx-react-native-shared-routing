@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'mobile',
+  displayName: 'util-testing',
   preset: 'react-native',
   resolver: '@nrwl/jest/plugins/resolver',
   moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],
@@ -7,7 +7,4 @@ module.exports = {
   moduleNameMapper: {
     '\\.svg$': '@nrwl/react-native/plugins/jest/svg-mock',
   },
-  transformIgnorePatterns: [
-    'node_modules/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)',
-  ],
 };

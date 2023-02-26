@@ -17,6 +17,7 @@
     "react": "*",
     "vite": "*",
     "vite-tsconfig-paths": "*",
-    "vite-plugin-dts": "*"
+    "vite-plugin-dts": "*",
+    "@dank-style/react": "*"
   }
 }

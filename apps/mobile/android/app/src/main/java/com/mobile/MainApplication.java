@@ -31,7 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
 
         @Override
         protected String getJSMainModuleName() {
-          return "src/main.tsx";
+          return "src/main.ts";
         }
 
         @Override
