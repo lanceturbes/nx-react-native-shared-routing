@@ -1,15 +1,18 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { NativeStackScreenProps } from "@react-navigation/native-stack"
+import React from "react"
+import { Text, View } from "react-native"
 
-import type { ParamList } from '@./data-navigation';
+import type { ParamList } from "@./data-navigation"
+import { Button } from "@./ui-common"
 
 export function HomeScreen({ navigation }: NativeStackScreenProps<ParamList>) {
-  return (
-    <View>
-      <Text>Welcome to home</Text>
-    </View>
-  );
+    return (
+        <View>
+            <Button>
+                <Text>Testing</Text>
+            </Button>
+        </View>
+    )
 }
 
-export default HomeScreen;
+export default HomeScreen

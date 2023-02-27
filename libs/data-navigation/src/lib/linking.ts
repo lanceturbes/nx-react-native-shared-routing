@@ -1,13 +1,14 @@
-import { LinkingOptions } from '@react-navigation/native';
-import ParamList from './param-list';
+import { LinkingOptions } from "@react-navigation/native"
+
+import ParamList from "./param-list"
 
 export const linking: LinkingOptions<ParamList> = {
-  prefixes: [],
-  config: {
-    screens: {
-      HOME: '/',
-    },
-  },
-};
+    prefixes: [],
+    config: {
+        screens: {
+            HOME: "/"
+        }
+    }
+}
 
-export default linking;
+export default linking

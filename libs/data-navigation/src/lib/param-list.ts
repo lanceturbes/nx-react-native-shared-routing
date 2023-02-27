@@ -1,5 +1,5 @@
 export type ParamList = {
-  HOME: undefined;
-};
+    HOME: undefined
+}
 
-export default ParamList;
+export default ParamList

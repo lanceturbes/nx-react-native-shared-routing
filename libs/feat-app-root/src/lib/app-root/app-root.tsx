@@ -1,13 +1,15 @@
-import { RootNavigator } from '@./feat-navigation';
-import { ThemeProvider } from '@./feat-theme';
-import React from 'react';
+import { DripsyProvider } from "dripsy"
+import React from "react"
+
+import { RootNavigator } from "@./feat-navigation"
+import { theme } from "@./feat-theme"
 
 export function AppRoot() {
-  return (
-    <ThemeProvider>
-      <RootNavigator />
-    </ThemeProvider>
-  );
+    return (
+        <DripsyProvider theme={theme}>
+            <RootNavigator />
+        </DripsyProvider>
+    )
 }
 
-export default AppRoot;
+export default AppRoot

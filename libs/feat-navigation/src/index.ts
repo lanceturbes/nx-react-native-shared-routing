@@ -1,1 +1,1 @@
-export * from './lib/root-navigator/root-navigator';
+export * from "./lib/root-navigator/root-navigator"

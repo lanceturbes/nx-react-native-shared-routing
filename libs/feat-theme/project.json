@@ -1,31 +1,31 @@
 {
-  "name": "feat-theme",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/feat-theme/src",
-  "projectType": "library",
-  "targets": {
-    "build": {
-      "executor": "@nrwl/vite:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/libs/feat-theme"
-      }
+    "name": "feat-theme",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/feat-theme/src",
+    "projectType": "library",
+    "targets": {
+        "build": {
+            "executor": "@nrwl/vite:build",
+            "outputs": ["{options.outputPath}"],
+            "options": {
+                "outputPath": "dist/libs/feat-theme"
+            }
+        },
+        "test": {
+            "executor": "@nrwl/vite:test",
+            "outputs": ["coverage/libs/feat-theme"],
+            "options": {
+                "passWithNoTests": true,
+                "reportsDirectory": "../../coverage/libs/feat-theme"
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": ["{options.outputFile}"],
+            "options": {
+                "lintFilePatterns": ["libs/feat-theme/**/*.ts"]
+            }
+        }
     },
-    "test": {
-      "executor": "@nrwl/vite:test",
-      "outputs": ["coverage/libs/feat-theme"],
-      "options": {
-        "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/libs/feat-theme"
-      }
-    },
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/feat-theme/**/*.ts"]
-      }
-    }
-  },
-  "tags": []
+    "tags": []
 }

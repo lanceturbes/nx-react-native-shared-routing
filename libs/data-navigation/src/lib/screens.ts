@@ -1,5 +1,5 @@
 export enum Screen {
-  HOME = 'HOME',
+    HOME = "HOME"
 }
 
-export default Screen;
+export default Screen

@@ -1,7 +1,8 @@
-import { AppRoot } from '@./feat-app-root';
-import { AppRegistry } from 'react-native';
+import { AppRegistry } from "react-native"
 
-AppRegistry.registerComponent('Web', () => AppRoot);
-AppRegistry.runApplication('Web', {
-  rootTag: document.querySelector('#root'),
-});
+import { AppRoot } from "@./feat-app-root"
+
+AppRegistry.registerComponent("Web", () => AppRoot)
+AppRegistry.runApplication("Web", {
+    rootTag: document.querySelector("#root")
+})

@@ -1,10 +1,10 @@
 module.exports = {
-  displayName: 'feat-app-root',
-  preset: 'react-native',
-  resolver: '@nrwl/jest/plugins/resolver',
-  moduleFileExtensions: ['ts', 'js', 'html', 'tsx', 'jsx'],
-  setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
-  moduleNameMapper: {
-    '\\.svg$': '@nrwl/react-native/plugins/jest/svg-mock',
-  },
-};
+    displayName: "feat-app-root",
+    preset: "react-native",
+    resolver: "@nrwl/jest/plugins/resolver",
+    moduleFileExtensions: ["ts", "js", "html", "tsx", "jsx"],
+    setupFilesAfterEnv: ["<rootDir>/test-setup.ts"],
+    moduleNameMapper: {
+        "\\.svg$": "@nrwl/react-native/plugins/jest/svg-mock"
+    }
+}
