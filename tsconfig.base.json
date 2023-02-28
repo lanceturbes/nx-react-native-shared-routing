@@ -21,6 +21,7 @@
             "@./feat-navigation": ["libs/feat-navigation/src/index.ts"],
             "@./feat-theme": ["libs/feat-theme/src/index.ts"],
             "@./ui-common": ["libs/ui-common/src/index.ts"],
+            "@./util-colors": ["libs/util-colors/src/index.ts"],
             "@./util-testing": ["libs/util-testing/src/index.ts"]
         }
     },
