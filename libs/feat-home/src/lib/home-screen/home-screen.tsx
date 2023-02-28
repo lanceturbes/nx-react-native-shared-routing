@@ -1,18 +1,28 @@
-import { NativeStackScreenProps } from "@react-navigation/native-stack"
-import { View } from "dripsy"
+import { useLinkTo } from "@react-navigation/native"
+import { H1, View } from "dripsy"
 import React from "react"
 
-import type { ParamList } from "@./data-navigation"
 import { Button } from "@./ui-common"
 
-export function HomeScreen({ navigation }: NativeStackScreenProps<ParamList>) {
+export function HomeScreen() {
+    const navigate = useLinkTo()
+
+    const handleGetStartedPress = () => navigate("/users")
+
     return (
-        <View sx={{ alignItems: "center" }}>
-            <Button
-                colorScheme="secondary"
-                onPress={() => console.log("Hello")}
+        <View sx={{ alignItems: "center", flex: 1, justifyContent: "center" }}>
+            <H1
+                sx={{
+                    textAlign: "center",
+                    maxWidth: [280, 480],
+                    fontSize: ["$3xl", "$5xl"]
+                }}
             >
-                Home Screen
+                Welcome to GitHub User Browser!
+            </H1>
+
+            <Button colorScheme="primary" onPress={handleGetStartedPress}>
+                Get Started
             </Button>
         </View>
     )

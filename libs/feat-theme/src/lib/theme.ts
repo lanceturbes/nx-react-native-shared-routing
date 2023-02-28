@@ -2,6 +2,9 @@ import { makeTheme } from "dripsy"
 
 export const theme = makeTheme({
     colors: {
+        // Locational
+        $surface: "#ffffff",
+
         // Primary
         $primary50: "#dff8ff",
         $primary100: "#b9e5f6",

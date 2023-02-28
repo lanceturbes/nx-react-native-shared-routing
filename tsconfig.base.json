@@ -16,10 +16,12 @@
         "baseUrl": ".",
         "paths": {
             "@./data-navigation": ["libs/data-navigation/src/index.ts"],
+            "@./data-users-api": ["libs/data-users-api/src/index.ts"],
             "@./feat-app-root": ["libs/feat-app-root/src/index.ts"],
             "@./feat-home": ["libs/feat-home/src/index.ts"],
             "@./feat-navigation": ["libs/feat-navigation/src/index.ts"],
             "@./feat-theme": ["libs/feat-theme/src/index.ts"],
+            "@./feat-user-browser": ["libs/feat-user-browser/src/index.ts"],
             "@./ui-common": ["libs/ui-common/src/index.ts"],
             "@./util-colors": ["libs/util-colors/src/index.ts"],
             "@./util-testing": ["libs/util-testing/src/index.ts"]

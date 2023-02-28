@@ -73,6 +73,7 @@ export const Button = ({
                     selectable={false}
                     sx={{
                         color: textColor,
+                        fontSize: "$xl",
                         ...(sxText ? sxText(pressableState) : {})
                     }}
                     {...textProps}

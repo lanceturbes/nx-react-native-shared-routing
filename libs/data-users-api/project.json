@@ -1,0 +1,31 @@
+{
+    "name": "data-users-api",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/data-users-api/src",
+    "projectType": "library",
+    "targets": {
+        "build": {
+            "executor": "@nrwl/vite:build",
+            "outputs": ["{options.outputPath}"],
+            "options": {
+                "outputPath": "dist/libs/data-users-api"
+            }
+        },
+        "test": {
+            "executor": "@nrwl/vite:test",
+            "outputs": ["coverage/libs/data-users-api"],
+            "options": {
+                "passWithNoTests": true,
+                "reportsDirectory": "../../coverage/libs/data-users-api"
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": ["{options.outputFile}"],
+            "options": {
+                "lintFilePatterns": ["libs/data-users-api/**/*.ts"]
+            }
+        }
+    },
+    "tags": []
+}

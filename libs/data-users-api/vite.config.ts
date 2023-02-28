@@ -5,7 +5,7 @@ import dts from "vite-plugin-dts"
 import viteTsConfigPaths from "vite-tsconfig-paths"
 
 export default defineConfig({
-    cacheDir: "../../node_modules/.vite/util-colors",
+    cacheDir: "../../node_modules/.vite/data-users-api",
 
     plugins: [
         dts({
@@ -34,7 +34,7 @@ export default defineConfig({
         lib: {
             // Could also be a dictionary or array of multiple entry points.
             entry: "src/index.ts",
-            name: "util-colors",
+            name: "data-users-api",
             fileName: "index",
             // Change this to the formats you want to support.
             // Don't forgot to update your package.json as well.

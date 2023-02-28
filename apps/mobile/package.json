@@ -18,6 +18,9 @@
         "react": "*",
         "vite-plugin-dts": "*",
         "vite-tsconfig-paths": "*",
-        "vite": "*"
+        "vite": "*",
+        "zod": "*",
+        "@tanstack/react-query": "*",
+        "@react-navigation/bottom-tabs": "*"
     }
 }
